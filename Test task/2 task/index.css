@@ -1,0 +1,304 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color:#0E1014 ;
+    padding: 46px 156px;
+    color: #E4E5EA;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purpleBall {
+    width: 60px;
+    height: 60px;
+    top: -14px;
+    left: 1076px;
+    border-radius: 100%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+}
+
+.purpleLight {
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+    position: absolute;
+}
+
+.redBall {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    border-radius: 100%;
+    left: 736px;
+    top: 83px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+}
+
+
+.redLight {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.redBallSmall {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1000px;
+    top: 547px;
+
+    border-radius: 100%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+}
+
+.headerLogo {
+    padding: 11px 0 4px;
+    margin-right: 52px;
+    position: relative;
+}
+
+.headerLogoDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuTitle {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menuTitle + .menuTitle {
+    margin-left: 30px;
+}
+
+.phoneNumber {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contactLogo {
+    cursor: pointer;
+}
+
+.contactLogo + .contactLogo {
+    margin-left: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentLeft {
+    margin-top: 90px;
+    margin-bottom: 208px;
+}
+
+.contentLeftTitle {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.contentLeftLogo {
+    font-size: 48px;
+    font-weight: 900;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentLeftDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.contentRight {
+    margin-top: 105px;
+    margin-bottom: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contentRightHeader {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.contentRightHeaderColor {
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentColumn {
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+
+.contentColumnLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contentRightInfo + .contentRightInfo {
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.contentColumnRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentRightInfoTitle {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.contentRightInfoDescription {
+    text-align: end;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.contentRightButton {
+    margin-top: 61px;
+    cursor: pointer;
+}
+
+.contentRightButtonBtn {
+    width: 262px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #E4E5EA;
+    background-color: #4077F3;
+    cursor: pointer;
+}
+
+.bottom {
+    padding: 55px 0 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottomSmallTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #656566;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.bottomMenu {
+    display: flex;
+}
+
+.bottomMenuLeft {
+    margin-right: 52px;
+}
+
+.bottomDescription {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.bottomDescription + .bottomDescription {
+    margin-top: 10px;
+}
+
+.bottomContact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bottomContactWrapperIcon {
+    margin:20px 0;
+}
+
+.bottomContactIcon + .bottomContactIcon {
+    margin-left: 10px;
+}
+
+.bottomContactLocation {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottomContactConfidentiality {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bottomContactConfidentialityTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bottomContactConfidentialityInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
